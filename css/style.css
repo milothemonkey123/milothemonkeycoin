@@ -1,0 +1,80 @@
+/*navbar*/
+.bg-cream {
+    background-image: url('../assets/image/Header-01.png');
+    background-size: cover;
+    background-position: center;
+}
+
+/*About*/
+#about {
+    background-image: url("../assets/image/About\ Milo-01_bg.png");
+    background-size: cover;
+    background-position: center;
+    margin-top: -10px;
+}
+
+section#about p {
+    font-size: 24px;
+}
+
+/*How*/
+#how {
+    background-image: url('../assets/image/how\ to\ get\ Banana-01.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.how-header {
+    max-width: 50%;
+}
+
+.bg-putih-transparan {
+    background-color: #ffffff;
+    opacity: 0.6;
+    border-radius: 10px;
+}
+
+.bg-cokelat-transparan {
+    background-color: #713116;
+    opacity: 0.6;
+    border-radius: 10px;
+}
+
+.parent-logo-end {
+    position: relative;
+}
+
+.logo-end {
+    position: absolute;
+    top: -110px;
+    right: 0;
+}
+
+/*The Monkey scream*/
+#scream {
+    background-image: url("../assets//image/The\ Monkey\ Scream-01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section#scream .container {
+    margin-top: 180px;
+}
+
+@media (max-width: 576px) {
+    .tentang-milo1 {
+        width: 80px;
+    }
+
+    .logo-end {
+        position: absolute;
+        top: -60px;
+        width: 60px;
+    }
+
+    #footer {
+        margin-top: -8px;
+    }
+}
